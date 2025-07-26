@@ -1,0 +1,72 @@
+{
+    "metadata": {
+        "input_documents": [
+            "gnn_doc_part1.pdf",
+            "gnn_doc_part2.pdf",
+            "gnn_doc_part3.pdf",
+            "gnn_doc_part4.pdf"
+        ],
+        "persona": "PhD Researcher in Computational Biology",
+        "job_to_be_done": "Prepare a comprehensive literature review focusing on graph neural network methodologies, biological datasets, explainability approaches, and performance benchmarks in drug discovery.",
+        "processing_timestamp": "2025-07-25T13:02:59.707229Z"
+    },
+    "extracted_sections": [
+        {
+            "document": "gnn_doc_part3.pdf",
+            "page_number": 1,
+            "section_title": "unlike GraphDRP and XGDP, tCNN used 1D convolutional layers to encode the SMILES",
+            "importance_rank": 1
+        },
+        {
+            "document": "gnn_doc_part1.pdf",
+            "page_number": 1,
+            "section_title": "Drug discovery and mechanism",
+            "importance_rank": 2
+        },
+        {
+            "document": "gnn_doc_part4.pdf",
+            "page_number": 1,
+            "section_title": "Conclusion",
+            "importance_rank": 3
+        },
+        {
+            "document": "gnn_doc_part1.pdf",
+            "page_number": 2,
+            "section_title": "tokenize ECFP features or SIMLES as drugs\u2019 representations. Ma et al. used Atom ",
+            "importance_rank": 4
+        },
+        {
+            "document": "gnn_doc_part2.pdf",
+            "page_number": 4,
+            "section_title": "property prediction33. Therefore, in this work, we adopt GNNExplainer to interpr",
+            "importance_rank": 5
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "gnn_doc_part3.pdf",
+            "page_number": 1,
+            "refined_text": "unlike GraphDRP and XGDP, tCNN used 1D convolutional layers to encode the SMILES notation of drugs, \nwhich renders it infeasible to decode the developed models to investigate structural saliency of drugs upon \nreaction with cancer cells.\nBlind prediction of responses of unknown drugs\nIn the blind test of response prediction of unknown drugs, we divide the dataset by constraining the existence of \ndrugs exclusively in training, validation, or testing set. Specifically, out of 223 drugs in total, 167 drugs\u2019 response \ndata are used for a 3-fold cross-validation, and response data of 56 drugs are preserved for testing. The blind \nprediction task aims at testing whether the model developed on known drugs has the generalizability to predict \nresponses of unknown drugs.\nIn the blind test experiment, we compare our method with tCNN, GraphDRP and TGSA."
+        },
+        {
+            "document": "gnn_doc_part1.pdf",
+            "page_number": 1,
+            "refined_text": "Drug discovery and mechanism \nprediction with explainable graph \nneural networks\nConghao\u00a0Wang, Gaurav Asok\u00a0Kumar & Jagath C.\u00a0Rajapakse\uf02a\nApprehension of drug action mechanism is paramount for drug response prediction and precision \nmedicine. The unprecedented development of machine learning and deep learning algorithms has \nexpedited the drug response prediction research. However, existing methods mainly focus on forward \nencoding of drugs, which is to obtain an accurate prediction of the response levels, but omitted to \ndecipher the reaction mechanism between drug molecules and genes."
+        },
+        {
+            "document": "gnn_doc_part4.pdf",
+            "page_number": 1,
+            "refined_text": "Conclusion\nThis study introduced a novel framework XGDP to predict response levels of anti-cancer drugs and discover \nunderlying mechanism of action of drugs. To enhance the predictive power of GNN models, first we adapted \nthe Morgan algorithm that is used for computing ECFPs to form our node features. Same procedures as Morgan \nalgorithm were followed to identify the substructures of the molecule but the feature vector of each atom was \nassigned as the membership of the identified structures."
+        },
+        {
+            "document": "gnn_doc_part1.pdf",
+            "page_number": 2,
+            "refined_text": "tokenize ECFP features or SIMLES as drugs\u2019 representations. Ma et al. used Atom Pairs (AP), MACCS and \ncircular fingerprints as the descriptor of drugs, and performed the quantitative structure activity relationship \n(QSAR) study with a Deep Neural Network19.\nGraph notations have recently been brought under the spotlight in the domain of drug representation. \nPreviously, compromising on computational complexity of molecular structures and the confined power of graph \nlearning, aforementioned methods are preferred to denote a molecule even at the cost of loss of information. \nHowever, with the advent of Graph Neural Networks (GNN) in the deep learning domain in recent years, it is \nnow feasible to store and analyze the information from molecules in graphs20.\nNumerous variants of GNN models have been applied in the pharmaceutical domain21,22 and demonstrated \nto learn the latent representation of the molecular graphs trading off the descriptive power against complexity. A \nGraph Convolution Network (GCN) model23 was proposed to predict the chemical properties of molecules and \ndiscover porous materials."
+        },
+        {
+            "document": "gnn_doc_part2.pdf",
+            "page_number": 4,
+            "refined_text": "property prediction33. Therefore, in this work, we adopt GNNExplainer to interpret the graph convolutional \nlayers and identify the active functional groups of molecular graphs.\nThe theory of GNNExplainer is to identify the most salient subgraph and subset of node features for the \nmodel\u2019s prediction. It can be formulated in an optimization problem:\n\t\nmax\nGS\nMI(Y, (GS, XS)) = H(Y ) \u2212H(Y |G = GS, X = XS)\b\n(7)\nwhere the mutual information MI reflects the change of model\u2019s output when using a subgraph GS and subset of \nnode features XS."
+        }
+    ]
+}
