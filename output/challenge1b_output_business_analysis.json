@@ -7,65 +7,65 @@
         ],
         "persona": "Investment Analyst",
         "job_to_be_done": "Analyze revenue trends, R&D investments, and market positioning strategies of Alphabet, Microsoft, and Amazon.",
-        "processing_timestamp": "2025-07-25T13:03:00.580467Z"
+        "processing_timestamp": "2025-07-26T09:01:11.231872Z"
     },
     "extracted_sections": [
         {
             "document": "IBM_annual_report.pdf",
-            "page_number": 117,
             "section_title": "Notes to Consolidated Financial Statements",
-            "importance_rank": 1
+            "importance_rank": 1,
+            "page_number": 117
         },
         {
             "document": "microsoft_annual_report.pdf",
-            "page_number": 12,
             "section_title": "11",
-            "importance_rank": 2
+            "importance_rank": 2,
+            "page_number": 12
         },
         {
             "document": "microsoft_annual_report.pdf",
-            "page_number": 37,
             "section_title": "36",
-            "importance_rank": 3
+            "importance_rank": 3,
+            "page_number": 37
         },
         {
             "document": "microsoft_annual_report.pdf",
-            "page_number": 30,
             "section_title": "29",
-            "importance_rank": 4
+            "importance_rank": 4,
+            "page_number": 30
         },
         {
             "document": "microsoft_annual_report.pdf",
-            "page_number": 29,
-            "section_title": "28",
-            "importance_rank": 5
+            "section_title": "82",
+            "importance_rank": 5,
+            "page_number": 83
         }
     ],
     "subsection_analysis": [
         {
             "document": "IBM_annual_report.pdf",
-            "page_number": 117,
-            "refined_text": "Notes to Consolidated Financial Statements \nInternational Business Machines Corporation and Subsidiary Companies \n                     115\n \n \nfactors that affect investment returns. There were no significant changes to investment strategy made in 2022 and none are planned \nfor 2023. The Qualified PPP portfolio\u2019s target allocation is 8 percent equity securities, 83 percent fixed-income securities, 4 percent \nreal estate and 5 percent other investments. \nThe assets are managed by professional investment firms and investment professionals who are employees of the company."
+            "refined_text": "Notes to Consolidated Financial Statements \nInternational Business Machines Corporation and Subsidiary Companies \n                     115\n \n \nfactors that affect investment returns. There were no significant changes to investment strategy made in 2022 and none are planned \nfor 2023. The Qualified PPP portfolio\u2019s target allocation is 8 percent equity securities, 83 percent fixed-income securities, 4 percent \nreal estate and 5 percent other investments. \nThe assets are managed by professional investment firms and investment professionals who are employees of the company.",
+            "page_number": 117
         },
         {
             "document": "microsoft_annual_report.pdf",
-            "page_number": 12,
-            "refined_text": " \n11 \nThe Ambitions That Drive Us  \nTo achieve our vision, our research and development efforts focus on three interconnected ambitions:  \n\u2022 \nReinvent productivity and business processes.  \n\u2022 \nBuild the intelligent cloud and intelligent edge platform.  \n\u2022 \nCreate more personal computing.  \nReinvent Productivity and Business Processes  \nAt Microsoft, we provide technology and resources to help our customers create a secure, productive work environment. \nOur family of products plays a key role in the ways the world works, learns, and connects.  \nOur growth depends on securely delivering continuous innovation and advancing our leading productivity and collaboration \ntools and services, including Microsoft 365, LinkedIn, and Dynamics 365. Microsoft 365 is an AI first platform that brings \ntogether Office, Windows, Copilot, and Enterprise Mobility + Security to help organizations empower their employees. \nCopilot for Microsoft 365 combines AI with business data in the Microsoft Graph and Microsoft 365 applications. Microsoft \nTeams is a comprehensive platform for communication and collaboration, with meetings, calling, chat, file collaboration, \nand the ability to bring all of the applications teams use into a single place."
+            "refined_text": " \n11 \nThe Ambitions That Drive Us  \nTo achieve our vision, our research and development efforts focus on three interconnected ambitions:  \n\u2022 \nReinvent productivity and business processes.  \n\u2022 \nBuild the intelligent cloud and intelligent edge platform.  \n\u2022 \nCreate more personal computing.  \nReinvent Productivity and Business Processes  \nAt Microsoft, we provide technology and resources to help our customers create a secure, productive work environment. \nOur family of products plays a key role in the ways the world works, learns, and connects.  \nOur growth depends on securely delivering continuous innovation and advancing our leading productivity and collaboration \ntools and services, including Microsoft 365, LinkedIn, and Dynamics 365. Microsoft 365 is an AI first platform that brings \ntogether Office, Windows, Copilot, and Enterprise Mobility + Security to help organizations empower their employees. \nCopilot for Microsoft 365 combines AI with business data in the Microsoft Graph and Microsoft 365 applications. Microsoft \nTeams is a comprehensive platform for communication and collaboration, with meetings, calling, chat, file collaboration, \nand the ability to bring all of the applications teams use into a single place.",
+            "page_number": 12
         },
         {
             "document": "microsoft_annual_report.pdf",
-            "page_number": 37,
-            "refined_text": " \n36 \nindices. The settlement risk related to these investments is insignificant given that the short-term investments held are \nprimarily highly liquid investment-grade fixed-income securities.  \nValuation  \nIn general, and where applicable, we use quoted prices in active markets for identical assets or liabilities to determine the \nfair value of our financial instruments. This pricing methodology applies to our Level 1 investments, such as U.S. government \nsecurities, common and preferred stock, and mutual funds."
+            "refined_text": " \n36 \nindices. The settlement risk related to these investments is insignificant given that the short-term investments held are \nprimarily highly liquid investment-grade fixed-income securities.  \nValuation  \nIn general, and where applicable, we use quoted prices in active markets for identical assets or liabilities to determine the \nfair value of our financial instruments. This pricing methodology applies to our Level 1 investments, such as U.S. government \nsecurities, common and preferred stock, and mutual funds.",
+            "page_number": 37
         },
         {
             "document": "microsoft_annual_report.pdf",
-            "page_number": 30,
-            "refined_text": " \n29 \nProductivity and Business Processes and Intelligent Cloud  \nMetrics related to our Productivity and Business Processes and Intelligent Cloud segments assess the health of our core \nbusinesses within these segments. The metrics reflect our cloud and on-premises product strategies and trends.  \n  \n \n \nOffice Commercial products and cloud services revenue \ngrowth \nRevenue from Office Commercial products and cloud \nservices (Office 365 subscriptions, the Office 365 portion of \nMicrosoft 365 Commercial subscriptions, and Office \nlicensed on-premises), comprising Office, Exchange, \nSharePoint, Microsoft Teams, Office 365 Security and \nCompliance, Microsoft Viva, and Copilot for Microsoft 365 \nOffice Consumer products and cloud services revenue \ngrowth \nRevenue from Office Consumer products and cloud \nservices, including Microsoft 365 Consumer and Copilot \nPro subscriptions, Office licensed on-premises, and other \nOffice services \n \n \nOffice 365 Commercial seat growth \nThe number of Office 365 Commercial seats at end of \nperiod where seats are paid users covered by an Office 365 \nCommercial subscription \n \n \nMicrosoft 365 Consumer subscribers \nThe number of Microsoft 365 Consumer and Copilot Pro \nsubscribers at end of period \n \n \nDynamics products and cloud services revenue growth \nRevenue from Dynamics products and cloud services, \nincluding Dynamics 365, comprising a set of intelligent, \ncloud-based applications across ERP, CRM, Power Apps, \nand Power Automate; and on-premises ERP and CRM \napplications \n \n \nLinkedIn revenue growth \nRevenue from LinkedIn, including Talent Solutions, \nMarketing Solutions, Premium Subscriptions, and Sales \nSolutions \n \n \nServer products and cloud services revenue growth \nRevenue from Server products and cloud services, \nincluding Azure and other cloud services; SQL Server, \nWindows Server, Visual Studio, System Center, and related \nClient Access Licenses (\u201cCALs\u201d); and Nuance and GitHub \n"
+            "refined_text": " \n29 \nProductivity and Business Processes and Intelligent Cloud  \nMetrics related to our Productivity and Business Processes and Intelligent Cloud segments assess the health of our core \nbusinesses within these segments. The metrics reflect our cloud and on-premises product strategies and trends.  \n  \n \n \nOffice Commercial products and cloud services revenue \ngrowth \nRevenue from Office Commercial products and cloud \nservices (Office 365 subscriptions, the Office 365 portion of \nMicrosoft 365 Commercial subscriptions, and Office \nlicensed on-premises), comprising Office, Exchange, \nSharePoint, Microsoft Teams, Office 365 Security and \nCompliance, Microsoft Viva, and Copilot for Microsoft 365 \nOffice Consumer products and cloud services revenue \ngrowth \nRevenue from Office Consumer products and cloud \nservices, including Microsoft 365 Consumer and Copilot \nPro subscriptions, Office licensed on-premises, and other \nOffice services \n \n \nOffice 365 Commercial seat growth \nThe number of Office 365 Commercial seats at end of \nperiod where seats are paid users covered by an Office 365 \nCommercial subscription \n \n \nMicrosoft 365 Consumer subscribers \nThe number of Microsoft 365 Consumer and Copilot Pro \nsubscribers at end of period \n \n \nDynamics products and cloud services revenue growth \nRevenue from Dynamics products and cloud services, \nincluding Dynamics 365, comprising a set of intelligent, \ncloud-based applications across ERP, CRM, Power Apps, \nand Power Automate; and on-premises ERP and CRM \napplications \n \n \nLinkedIn revenue growth \nRevenue from LinkedIn, including Talent Solutions, \nMarketing Solutions, Premium Subscriptions, and Sales \nSolutions \n \n \nServer products and cloud services revenue growth \nRevenue from Server products and cloud services, \nincluding Azure and other cloud services; SQL Server, \nWindows Server, Visual Studio, System Center, and related \nClient Access Licenses (\u201cCALs\u201d); and Nuance and GitHub \n",
+            "page_number": 30
         },
         {
             "document": "microsoft_annual_report.pdf",
-            "page_number": 29,
-            "refined_text": " \n28 \nReportable Segments  \nWe report our financial performance based on the following segments: Productivity and Business Processes, Intelligent \nCloud, and More Personal Computing. The segment amounts included in MD&A are presented on a basis consistent with \nour internal management reporting.  \nAdditional information on our reportable segments is contained in Note 19 \u2013 Segment Information and Geographic Data of \nthe Notes to Financial Statements.  \nMetrics  \nWe use metrics in assessing the performance of our business and to make informed decisions regarding the allocation of \nresources. We disclose metrics to enable investors to evaluate progress against our ambitions, provide transparency into \nperformance trends, and reflect the continued evolution of our products and services."
+            "refined_text": " \n82 \n\u2022 \nThe pattern of delivery (i.e., timing of when revenue is recognized) for each distinct performance obligation.  \n\u2022 \nIdentification and treatment of contract terms that may impact the timing and amount of revenue recognized (e.g., \nvariable consideration, optional purchases, and free services).  \n\u2022 \nDetermination of stand-alone selling prices for each distinct performance obligation and for products and services that \nare not sold separately.  \nGiven these factors and due to the volume of transactions, the related audit effort in evaluating management\u2019s judgments \nin determining revenue recognition for certain customer agreements was extensive and required a high degree of auditor \njudgment.  \nHow the Critical Audit Matter Was Addressed in the Audit  \nOur principal audit procedures related to the Company\u2019s revenue recognition for certain customer agreements included the \nfollowing:  \n\u2022 \nWe tested the effectiveness of controls related to the identification of distinct performance obligations, the determination \nof the timing of revenue recognition, and the estimation of variable consideration.  \n\u2022 \nWe evaluated management\u2019s significant accounting policies related to certain customer agreements for \nreasonableness.  \n\u2022 \nWe selected a sample of customer agreements and performed the following procedures:  \n- \nObtained and read contract source documents for each selection, including master agreements, and other documents \nthat were part of the agreement.  \n- \nTested management\u2019s identification and treatment of contract terms.  \n- \nAssessed the terms in the customer agreement and evaluated the appropriateness of management\u2019s application of \ntheir accounting policies, along with their use of estimates, in the determination of revenue recognition conclusions.  \n\u2022 \nWe evaluated the reasonableness of management\u2019s estimate of stand-alone selling prices for products and services \nthat are not sold separately.  \n\u2022 \nWe tested the mathematical accuracy of management\u2019s calculations of revenue and the associated timing of revenue \nrecognized in the financial statements.  \nIncome Taxes \u2013 Uncertain Tax Positions \u2013 Refer to Note 12 to the financial statements  \nCritical Audit Matter Description  \nThe Company\u2019s long-term income taxes liability includes uncertain tax positions related to transfer pricing issues that remain \nunresolved with the Internal Revenue Service (\u201cIRS\u201d). The Company remains under IRS audit, or subject to IRS audit, for \ntax years subsequent to 2003. In the current fiscal year, the Company received Notices of Proposed Adjustments (\u201cNOPAs\u201d) \nfor the tax years 2004 to 2013, primarily related to intercompany transfer pricing.",
+            "page_number": 83
         }
     ]
 }
