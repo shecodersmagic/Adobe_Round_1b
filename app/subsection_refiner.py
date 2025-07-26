@@ -12,7 +12,7 @@ def refine_subsections(texts: list, metas: list):
         snippet = ' '.join(sentences[:3])  # Take first 3 sentences
         result.append({
             "document": meta["document"],
-            "page_number": meta["page_number"],
-            "refined_text": snippet
+            "refined_text": snippet,
+            "page_number": meta["page_number"]
         })
     return result
