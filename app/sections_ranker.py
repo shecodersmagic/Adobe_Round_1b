@@ -17,8 +17,8 @@ def rank_sections(documents: dict, query: str, top_k: int = 5):
             all_texts.append(text)
             metadata.append({
                 "document": doc_name,
-                "page_number": i + 1,
-                "section_title": title
+                "section_title": title,
+                "page_number": i + 1  # this will be moved after importance rank in formatting
             })
 
     # TF-IDF based similarity scoring
@@ -31,6 +31,17 @@ def rank_sections(documents: dict, query: str, top_k: int = 5):
     ranked = [metadata[i] for i in top_indices]
     for rank, meta in enumerate(ranked, 1):
         meta['importance_rank'] = rank
+
+    # Reorder metadata keys for required output format
+    for section in ranked:
+        reordered = {
+            "document": section["document"],
+            "section_title": section["section_title"],
+            "importance_rank": section["importance_rank"],
+            "page_number": section["page_number"]
+        }
+        section.clear()
+        section.update(reordered)
 
     top_texts = [all_texts[i] for i in top_indices]
 
