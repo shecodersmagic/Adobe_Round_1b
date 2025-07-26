@@ -8,65 +8,65 @@
         ],
         "persona": "Undergraduate Chemistry Student",
         "job_to_be_done": "Identify key concepts and mechanisms for exam preparation on reaction kinetics",
-        "processing_timestamp": "2025-07-25T13:03:01.443425Z"
+        "processing_timestamp": "2025-07-26T09:01:12.065435Z"
     },
     "extracted_sections": [
         {
             "document": "chapter6.pdf",
-            "page_number": 27,
             "section_title": "Chapter 6: Thermodynamics and kinetics review",
-            "importance_rank": 1
+            "importance_rank": 1,
+            "page_number": 27
         },
         {
             "document": "chapter8.pdf",
-            "page_number": 6,
             "section_title": "Chapter 8: Nucleophilic substitutions",
-            "importance_rank": 2
+            "importance_rank": 2,
+            "page_number": 6
         },
         {
             "document": "chapter8.pdf",
-            "page_number": 46,
             "section_title": "Chapter 8: Nucleophilic substitutions",
-            "importance_rank": 3
+            "importance_rank": 3,
+            "page_number": 46
         },
         {
             "document": "chapter6.pdf",
-            "page_number": 6,
             "section_title": "Chapter 6: Thermodynamics and kinetics review",
-            "importance_rank": 4
+            "importance_rank": 4,
+            "page_number": 6
         },
         {
             "document": "chapter6.pdf",
-            "page_number": 5,
             "section_title": "Chapter 6: Thermodynamics and kinetics review",
-            "importance_rank": 5
+            "importance_rank": 5,
+            "page_number": 5
         }
     ],
     "subsection_analysis": [
         {
             "document": "chapter6.pdf",
-            "page_number": 27,
-            "refined_text": "Chapter 6: Thermodynamics and kinetics review \nUCSD Chemistry & Biochemistry AY23-24 \n6 - 27 \nEnd of Chapter Self-Check List \n \nCheck your progress towards success. Verify that after completing this chapter \nyou can: \n \n \n\u0000  Analyze a hypothetical reaction coordinate diagram and recognize whether \na reaction is endergonic or exergonic. Evaluate whether the equilibrium \nconstant is greater or less than one."
+            "refined_text": "Chapter 6: Thermodynamics and kinetics review \nUCSD Chemistry & Biochemistry AY23-24 \n6 - 27 \nEnd of Chapter Self-Check List \n \nCheck your progress towards success. Verify that after completing this chapter \nyou can: \n \n \n\u0000  Analyze a hypothetical reaction coordinate diagram and recognize whether \na reaction is endergonic or exergonic. Evaluate whether the equilibrium \nconstant is greater or less than one.",
+            "page_number": 27
         },
         {
             "document": "chapter8.pdf",
-            "page_number": 6,
-            "refined_text": "Chapter 8: Nucleophilic substitutions \nUCSD Chemistry & Biochemistry AY23-24 \n8 -6 \nLearning Outcomes \n- \nUse bond dipole theory to identify partially positive carbons that can act as \nelectrophiles in a SN2 reaction \n- \nGiven a molecular structure identify nucleophilic/electrophilic and Lewis \nacidic/basic atoms (sites) \n- \nIdentify the nucleophile, electrophile, and leaving group in an SN1 or SN2 \nreaction. \n- \nUse curved arrows to show the movement of electrons as the nucleophile attacks \nan electrophilic carbon in an SN2 reaction (i.e., write a mechanism) \n- \nUse curved arrows to show the movement of electrons as the leaving group \nleaves and a nucleophile attacks the carbocation intermediate in an SN1 reaction \n(i.e., write a mechanism) \n- \nDraw a complete mechanism for an SN2 reaction. Illustrate the transition state for \nan SN2 reaction including the stereochemical outcomes \n- \nidentify and draw the orbitals that participate in SN2 reactions \n- \nDemonstrate that SN2 reactions result in inversion of configuration at the \nelectrophilic carbon.  \n- \nDraw a complete mechanism for an SN1 reaction, in particular a hydrolysis or \nother solvolysis SN1 reaction.  \n- \nDraw an energy diagram illustrating the energy profile of a typical SN1 solvolysis \nreaction. Illustrate all transition states that are part of an SN1 reaction. \n- \nUse the factors that influence nucleophilicity to evaluate the relative \nnucleophilicity of two or more compounds and predict relative rates of SN2 \nreactions with different nucleophiles and a common electrophile. \n- \nRank given electrophiles rates in SN2 given reaction conditions \n- \nRank given nucleophiles rates in SN2 given reaction conditions \n- \nUse periodic trends to explain trends in nucleophilicity and electrophilicity \n- \nUsing knowledge of pKa values and trends, rank the relative leaving group \nabilities of leaving groups. \n \n \n"
+            "refined_text": "Chapter 8: Nucleophilic substitutions \nUCSD Chemistry & Biochemistry AY23-24 \n8 -6 \nLearning Outcomes \n- \nUse bond dipole theory to identify partially positive carbons that can act as \nelectrophiles in a SN2 reaction \n- \nGiven a molecular structure identify nucleophilic/electrophilic and Lewis \nacidic/basic atoms (sites) \n- \nIdentify the nucleophile, electrophile, and leaving group in an SN1 or SN2 \nreaction. \n- \nUse curved arrows to show the movement of electrons as the nucleophile attacks \nan electrophilic carbon in an SN2 reaction (i.e., write a mechanism) \n- \nUse curved arrows to show the movement of electrons as the leaving group \nleaves and a nucleophile attacks the carbocation intermediate in an SN1 reaction \n(i.e., write a mechanism) \n- \nDraw a complete mechanism for an SN2 reaction. Illustrate the transition state for \nan SN2 reaction including the stereochemical outcomes \n- \nidentify and draw the orbitals that participate in SN2 reactions \n- \nDemonstrate that SN2 reactions result in inversion of configuration at the \nelectrophilic carbon.  \n- \nDraw a complete mechanism for an SN1 reaction, in particular a hydrolysis or \nother solvolysis SN1 reaction.  \n- \nDraw an energy diagram illustrating the energy profile of a typical SN1 solvolysis \nreaction. Illustrate all transition states that are part of an SN1 reaction. \n- \nUse the factors that influence nucleophilicity to evaluate the relative \nnucleophilicity of two or more compounds and predict relative rates of SN2 \nreactions with different nucleophiles and a common electrophile. \n- \nRank given electrophiles rates in SN2 given reaction conditions \n- \nRank given nucleophiles rates in SN2 given reaction conditions \n- \nUse periodic trends to explain trends in nucleophilicity and electrophilicity \n- \nUsing knowledge of pKa values and trends, rank the relative leaving group \nabilities of leaving groups. \n \n \n",
+            "page_number": 6
         },
         {
             "document": "chapter8.pdf",
-            "page_number": 46,
-            "refined_text": "Chapter 8: Nucleophilic substitutions \nUCSD Chemistry & Biochemistry AY23-24 \n8 -46 \n- \nAllylic and benzylic carbocations, in which the positive charge is delocalized \nby resonance, are relatively stable. \n\u0000 The presence of electron-withdrawing groups (by inductive or resonance effects) \ndecreases carbocation stability. \n\u0000 The presence of electron-donating groups (by inductive or resonance effects) \nincreases carbocation stability. \n\u0000 The presence of a heteroatom can stabilize a nearby carbocation by the \nresonance-based electron-donating effect. Otherwise, heteroatoms act as \nweakly electron-withdrawing carbocation-destabilizing groups by inductive \neffects \nGeneral concepts and skills \n\u0000 Predict whether a given substitution reaction is likely to proceed by SN2 or SN1 \nmechanisms, based on the identity of the nucleophile, the electrophile, and the \nsolvent. \n- \nSN2 reactions involve strong nucleophiles and unhindered electrophiles, \nand are accelerated by the use of polar, aprotic solvents. \n- \nSN1 reactions involve weaker nucleophiles relatively stable carbocations, \nand are accelerated by protic solvents.  \n\u0000 Predict the product(s) of a nonenzymatic substitution reaction, given a \nnucleophile and electrophile and predict a reasonable mechanism (SN1 or SN2). \nPredict different regiochemical and stereochemical outcomes leading to the \nformation of more than one product. \n\u0000 Identify starting compounds in a substitution reaction given a product or \nproducts. \n\u0000 Recognize and draw a complete mechanism for a biochemical nucleophilic \nsubstitution reaction. Be able to evaluate the nucleophile, electrophile, and \nleaving the group in the reaction, and predict whether the reaction is likely to \nhave more SN2 or SN1 character. \n\u0000 Describe how S-adenosylmethionine (SAM) acts as a methyl group donor in \nbiochemical SN2 reactions. \n\u0000 Select appropriate alkyl halide and alcohol starting compounds to synthesize a \ngiven ether product, using the Williamson ether synthesis procedure. \nIf you didn\u2019t check off all items on this list, practice more and reach out to \nyour instructional team for additional help \n \n"
+            "refined_text": "Chapter 8: Nucleophilic substitutions \nUCSD Chemistry & Biochemistry AY23-24 \n8 -46 \n- \nAllylic and benzylic carbocations, in which the positive charge is delocalized \nby resonance, are relatively stable. \n\u0000 The presence of electron-withdrawing groups (by inductive or resonance effects) \ndecreases carbocation stability. \n\u0000 The presence of electron-donating groups (by inductive or resonance effects) \nincreases carbocation stability. \n\u0000 The presence of a heteroatom can stabilize a nearby carbocation by the \nresonance-based electron-donating effect. Otherwise, heteroatoms act as \nweakly electron-withdrawing carbocation-destabilizing groups by inductive \neffects \nGeneral concepts and skills \n\u0000 Predict whether a given substitution reaction is likely to proceed by SN2 or SN1 \nmechanisms, based on the identity of the nucleophile, the electrophile, and the \nsolvent. \n- \nSN2 reactions involve strong nucleophiles and unhindered electrophiles, \nand are accelerated by the use of polar, aprotic solvents. \n- \nSN1 reactions involve weaker nucleophiles relatively stable carbocations, \nand are accelerated by protic solvents.  \n\u0000 Predict the product(s) of a nonenzymatic substitution reaction, given a \nnucleophile and electrophile and predict a reasonable mechanism (SN1 or SN2). \nPredict different regiochemical and stereochemical outcomes leading to the \nformation of more than one product. \n\u0000 Identify starting compounds in a substitution reaction given a product or \nproducts. \n\u0000 Recognize and draw a complete mechanism for a biochemical nucleophilic \nsubstitution reaction. Be able to evaluate the nucleophile, electrophile, and \nleaving the group in the reaction, and predict whether the reaction is likely to \nhave more SN2 or SN1 character. \n\u0000 Describe how S-adenosylmethionine (SAM) acts as a methyl group donor in \nbiochemical SN2 reactions. \n\u0000 Select appropriate alkyl halide and alcohol starting compounds to synthesize a \ngiven ether product, using the Williamson ether synthesis procedure. \nIf you didn\u2019t check off all items on this list, practice more and reach out to \nyour instructional team for additional help \n \n",
+            "page_number": 46
         },
         {
             "document": "chapter6.pdf",
-            "page_number": 6,
-            "refined_text": "Chapter 6: Thermodynamics and kinetics review \nUCSD Chemistry & Biochemistry AY23-24 \n6 - 6 \nLearning Outcomes \n- \nEstimate reaction equilibrium ratios using changes in Gibbs standard \nfree energy, \u2206G \n- \nCalculate enthalpy (\u2206H) change of a reaction using the energy of bonds \nbroken and bonds made \n- \nDraw a reaction (potential) energy diagram for a given reaction and \nlabel/identify the starting materials, products, \u2206G, \u2206H, Ea, \u2206G\u2021, transition \nstates and intermediates \n \n \nSection 6.1: A first look at some reaction mechanisms \n  \n6.1A: An acid-base (proton transfer) reaction \n \nWe'll begin with a simple type of reaction that you are no doubt familiar with from \nprevious chemistry classes: an acid-base reaction. Note that in chapter 7, we will \ncome back to consider acid-base reactivity in much greater detail. \n \nHere is the acid-base reaction between hydroxide ion and hydrochloric acid: \n \n \n \nNote: A reaction such as the one above would of course include a spectator \ncation, such as sodium (Na+) or potassium (K+). In most of the reaction figures \nthat we'll see throughout this book, the spectator ion is not shown in the interest \nof simplicity. \n \nA proton is transferred from HCl, the acid, to hydroxide ion, the base."
+            "refined_text": "Chapter 6: Thermodynamics and kinetics review \nUCSD Chemistry & Biochemistry AY23-24 \n6 - 6 \nLearning Outcomes \n- \nEstimate reaction equilibrium ratios using changes in Gibbs standard \nfree energy, \u2206G \n- \nCalculate enthalpy (\u2206H) change of a reaction using the energy of bonds \nbroken and bonds made \n- \nDraw a reaction (potential) energy diagram for a given reaction and \nlabel/identify the starting materials, products, \u2206G, \u2206H, Ea, \u2206G\u2021, transition \nstates and intermediates \n \n \nSection 6.1: A first look at some reaction mechanisms \n  \n6.1A: An acid-base (proton transfer) reaction \n \nWe'll begin with a simple type of reaction that you are no doubt familiar with from \nprevious chemistry classes: an acid-base reaction. Note that in chapter 7, we will \ncome back to consider acid-base reactivity in much greater detail. \n \nHere is the acid-base reaction between hydroxide ion and hydrochloric acid: \n \n \n \nNote: A reaction such as the one above would of course include a spectator \ncation, such as sodium (Na+) or potassium (K+). In most of the reaction figures \nthat we'll see throughout this book, the spectator ion is not shown in the interest \nof simplicity. \n \nA proton is transferred from HCl, the acid, to hydroxide ion, the base.",
+            "page_number": 6
         },
         {
             "document": "chapter6.pdf",
-            "page_number": 5,
-            "refined_text": "Chapter 6: Thermodynamics and kinetics review \nUCSD Chemistry & Biochemistry AY23-24 \n6 - 5 \ndepicted on paper, whether it absorbs or releases energy, how fast it goes, and \nhow a catalyst might be able to make it go much faster.  \n \nIn your previous college general chemistry and high school chemistry courses \n(and perhaps in biology courses as well), you have no doubt seen many different \nexamples of chemical reactions. Most likely, these reactions were depicted by \nchemical equations, showing the starting materials (reactants) and the finished \nproducts connected by a 'reaction arrow'. In most cases, the structures of \nreactants and products were not considered - they were defined only by \nmolecular formula and perhaps by physical state (solid, liquid, gas, or solution). \nThe reaction below, showing the decomposition of dinitrogen pentoxide (N2O5) \nto nitrogen dioxide and oxygen, is a typical example of the 'equation' treatment \nof chemical reactivity that you might have seen in your General Chemistry \ntextbook. \n \nN2O5 (s)  \u00ae 2NO2 (g) + \u00bd O2 (g) \n \nThis way of talking about chemical reactions is perfectly adequate in introductory \nchemistry classes when fundamental chemical concepts like stoichiometry, \nthermodynamics, and kinetics are being explained for the first time."
+            "refined_text": "Chapter 6: Thermodynamics and kinetics review \nUCSD Chemistry & Biochemistry AY23-24 \n6 - 5 \ndepicted on paper, whether it absorbs or releases energy, how fast it goes, and \nhow a catalyst might be able to make it go much faster.  \n \nIn your previous college general chemistry and high school chemistry courses \n(and perhaps in biology courses as well), you have no doubt seen many different \nexamples of chemical reactions. Most likely, these reactions were depicted by \nchemical equations, showing the starting materials (reactants) and the finished \nproducts connected by a 'reaction arrow'. In most cases, the structures of \nreactants and products were not considered - they were defined only by \nmolecular formula and perhaps by physical state (solid, liquid, gas, or solution). \nThe reaction below, showing the decomposition of dinitrogen pentoxide (N2O5) \nto nitrogen dioxide and oxygen, is a typical example of the 'equation' treatment \nof chemical reactivity that you might have seen in your General Chemistry \ntextbook. \n \nN2O5 (s)  \u00ae 2NO2 (g) + \u00bd O2 (g) \n \nThis way of talking about chemical reactions is perfectly adequate in introductory \nchemistry classes when fundamental chemical concepts like stoichiometry, \nthermodynamics, and kinetics are being explained for the first time.",
+            "page_number": 5
         }
     ]
 }
